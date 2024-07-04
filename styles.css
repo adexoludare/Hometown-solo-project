@@ -1,0 +1,81 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: 
+DARK BLUE: #1D3557
+**/
+body{
+    margin: 0;
+    padding: 8px 16px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient( #457B9D, aliceblue);
+    color:#1D3557;
+}
+
+#header{
+    background: url("images/Header.jpg");
+    background-size: cover;
+    height: 350px;
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.hero{
+    color:aliceblue;
+    background: #457B9D;
+    width: 220px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    opacity: 60ps;
+}
+
+.hero2{
+    color: aliceblue;
+    background: #1D3557;
+    width: 450px;
+    border-radius: 10px;
+    opacity: 80%;
+   
+}
+
+.her-p{
+    color:aliceblue;
+    background-color: #1D3557;;
+    width: 380px;
+    border-radius: 8px;
+    opacity: 70%;
+}
+
+.visit-section{
+    background: linear-gradient( aliceblue, #457B9D);
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.img-visit{
+    border: solid 4px #457B9D;
+    border-radius: 50%;
+}
+
+.img-visit:hover{
+    border: solid 8px #254b63;
+}
+
+.place-visit{
+    width: 400px;
+}
+
+#y-guide{
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
