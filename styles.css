@@ -20,7 +20,7 @@ body{
     color:#1D3557;
 }
 /* For Mobile and small screen Devices */
-@media (max-width: 768px){
+@media (min-width: 320px) and (max-width:768px){
     #header{
         background: url("images/Header.jpg");
         background-size: cover;
