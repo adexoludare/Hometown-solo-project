@@ -12,12 +12,12 @@ body{
 #header{
     background: url("images/Header.jpg");
     background-size: cover;
-    /* height: 30%; */
+    height: 30%;
     padding-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin: 0px; */
+    margin: 0px;
 }
 
 .hero{
@@ -54,6 +54,7 @@ h2{
 .visit-section{
     background: linear-gradient( aliceblue, #457B9D);
     display: grid;
+    grid-template-columns: 1fr;
 }
 
 .img-visit{
