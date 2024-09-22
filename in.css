@@ -1,0 +1,134 @@
+
+body{
+    margin: 0;
+    padding: 0.5em 1em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    background: linear-gradient( #457B9D, aliceblue);
+    color:#1D3557;
+}
+
+#header{
+    background: url("images/Header.jpg");
+    background-size: cover;
+    height: 30%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.hero{
+    color:aliceblue;
+    background: #457B9D;
+    width: 220px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    opacity: 60ps;
+}
+
+.hero2{
+    color: aliceblue;
+    background: #1D3557;
+    max-width: 800px;
+    border-radius: 0.5em;
+    opacity: 70%;
+}
+
+.her-p{
+    color:aliceblue;
+    background-color: #0f6340;
+    max-width: 80%;
+    border-radius: 2em;
+    font-weight: 800;
+    opacity: 50%;
+}
+
+h2{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.visit-section{
+    background: linear-gradient( aliceblue, #457B9D);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+}
+
+.fela{
+    grid-area: fela;
+}
+
+.lekki{
+
+}
+
+.beach{
+
+}
+
+.ikeja{
+
+}
+
+.tarkwa{
+
+}
+
+.img-visit{
+    width: 80%;
+    height: fit-content;
+    border: solid 4px #457B9D;
+    border-radius: 10%;
+}
+
+.img-visit:hover{
+    border: solid 8px #254b63;
+}
+
+.place-visit{
+    width: 95%;
+}
+
+#y-guide{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#y-guide img{
+    border-radius: 10%;
+}
+
+/* @media (min-width:430px){
+    #header{
+        height: 70vh;
+        padding-top: 10em;
+    }
+    .visit-section{
+        /* grid-template-columns: repeat(12, 1fr); */
+        grid-template-areas: 
+        ""
+        ""
+        "";
+        gap: 1em;
+    }
+    h2{
+        font-size: 2em;
+        font-weight: 900;
+    }
+    #y-guide{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    #y-guide img{
+        border-radius: 10%;
+    }
+    
+} */

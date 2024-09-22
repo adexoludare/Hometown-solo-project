@@ -1,7 +1,5 @@
-
 body{
     margin: 0;
-    padding: 0.5em 1em;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
@@ -9,102 +7,67 @@ body{
     color:#1D3557;
 }
 
-#header{
+.header{
     background: url("images/Header.jpg");
     background-size: cover;
-    height: 30%;
-    padding-top: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px;
+    padding-top: 5em;
 }
 
-.hero{
+.head h1{
     color:aliceblue;
     background: #457B9D;
-    width: 220px;
-    border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 32px;
-    opacity: 60ps;
 }
 
-.hero2{
+.head h2{
     color: aliceblue;
     background: #1D3557;
     max-width: 800px;
+    margin: 0 auto;
     border-radius: 0.5em;
     opacity: 70%;
 }
 
-.her-p{
+.head p{
     color:aliceblue;
     background-color: #0f6340;
     max-width: 80%;
+    margin: 0.5em auto;
     border-radius: 2em;
     font-weight: 800;
     opacity: 50%;
 }
 
-h2{
-    color: #ffffff;
-    text-transform: capitalize;
-}
-.visit-section{
-    background: linear-gradient( aliceblue, #457B9D);
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.img-visit{
-    width: 80%;
-    height: fit-content;
-    border: solid 4px #457B9D;
-    border-radius: 10%;
-}
-
-.img-visit:hover{
-    border: solid 8px #254b63;
+.space{
+    margin: 0.5em;
 }
 
 .place-visit{
-    width: 95%;
+    width: 400px;
+    background: linear-gradient( aliceblue, #457B9D);
+    margin: 0.8em auto;
+    padding: 0.5em;
 }
 
-#y-guide{
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-#y-guide img{
+.place-visit img{
+    width: 80%;
+    height: auto;
     border-radius: 10%;
 }
 
-@media (min-width:750px){
-    #header{
-        height: 70vh;
-        padding-top: 10em;
-    }
-    .visit-section{
-        grid-template-columns: 1fr 1fr;
-        gap: 1em;
-    }
-    h2{
-        font-size: 2em;
-        font-weight: 900;
-    }
-    #y-guide{
-        width: 600px;
-        display: flex;
-        flex-direction: row;
-        margin: 0 auto;
-        justify-content: space-between;
-    }
-    #y-guide img{
-        border-radius: 10%;
-    }
-    
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+.guide{
+    padding-top: 0.2em;
+    width: 90%;
+    margin: 0.8em auto;
+    background: linear-gradient(#acabf5, aliceblue);
+    border-radius: 20%;
+}
+.guide img{
+    width: 80%;
+    border-radius: 15%;
+}
+
